@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2AFA6D236250AF002013BD /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AFA6C236250AF002013BD /* ViewController2.swift */; };
 		3C99D1612360D62300221D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99D1602360D62300221D0B /* AppDelegate.swift */; };
 		3C99D1632360D62300221D0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99D1622360D62300221D0B /* SceneDelegate.swift */; };
 		3C99D1652360D62300221D0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99D1642360D62300221D0B /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C2AFA6C236250AF002013BD /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		3C99D15D2360D62300221D0B /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C99D1602360D62300221D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C99D1622360D62300221D0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				3C99D1622360D62300221D0B /* SceneDelegate.swift */,
 				3C99D1642360D62300221D0B /* ViewController.swift */,
 				3C99D1662360D62300221D0B /* Main.storyboard */,
+				3C2AFA6C236250AF002013BD /* ViewController2.swift */,
 				3C99D1742360D67D00221D0B /* PlayingCard.swift */,
 				3C99D1782360E28800221D0B /* PlayingCardView.swift */,
 				3C99D1762360DA2800221D0B /* PlayingCardDeck.swift */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C2AFA6D236250AF002013BD /* ViewController2.swift in Sources */,
 				3C99D1652360D62300221D0B /* ViewController.swift in Sources */,
 				3C99D1792360E28800221D0B /* PlayingCardView.swift in Sources */,
 				3C99D1612360D62300221D0B /* AppDelegate.swift in Sources */,
