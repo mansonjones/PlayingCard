@@ -73,11 +73,11 @@ class PlayingCardView: UIView {
         
         func createPipString(thatFits pipRect: CGRect) -> NSAttributedString {
             let maxVerticalPipCount = CGFloat(pipsPerRowForRank.reduce(0) { max($1.count, $0) })
-            let maxHorizontalPipCount = CGFloat(pipsPerRowForRank.reduce(0) { max($1.max() ?? 0, $0)})
+            let maxHorizontalPipCount = CGFloat(pipsPerRowForRank.reduce(0) { max($1.max() ?? 0, $0) })
             let verticalPipRowSpacing = pipRect.size.height / maxVerticalPipCount
             let attemptedPipString = centeredAttributedString(suit, fontSize: verticalPipRowSpacing)
-            let probablyOkayPipStringFontSize = verticalPipRowSpacing / (attemptedPipString.size().height) /
-                verticalPipRowSpacing
+            let probablyOkayPipStringFontSize = verticalPipRowSpacing / (attemptedPipString.size().height /
+                verticalPipRowSpacing)
             let probablyOkayPipString = centeredAttributedString(suit, fontSize: probablyOkayPipStringFontSize)
             if probablyOkayPipString.size().width > pipRect.size.width / maxHorizontalPipCount {
                 return centeredAttributedString(suit, fontSize: probablyOkayPipStringFontSize /
