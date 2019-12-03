@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C12920423972101000702D3 /* CMMotionManager+shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C12920323972101000702D3 /* CMMotionManager+shared.swift */; };
 		3C2AFA6D236250AF002013BD /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AFA6C236250AF002013BD /* ViewController2.swift */; };
 		3C2AFA6F23626901002013BD /* CardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AFA6E23626901002013BD /* CardBehavior.swift */; };
 		3C99D1612360D62300221D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C99D1602360D62300221D0B /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C12920323972101000702D3 /* CMMotionManager+shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMMotionManager+shared.swift"; sourceTree = "<group>"; };
 		3C2AFA6C236250AF002013BD /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		3C2AFA6E23626901002013BD /* CardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBehavior.swift; sourceTree = "<group>"; };
 		3C2AFA7023627280002013BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				3C99D1642360D62300221D0B /* ViewController.swift */,
 				3C99D1662360D62300221D0B /* Main.storyboard */,
 				3C2AFA6C236250AF002013BD /* ViewController2.swift */,
+				3C12920323972101000702D3 /* CMMotionManager+shared.swift */,
 				3C2AFA7023627280002013BD /* README.md */,
 				3C2AFA6E23626901002013BD /* CardBehavior.swift */,
 				3C99D1742360D67D00221D0B /* PlayingCard.swift */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2AFA6D236250AF002013BD /* ViewController2.swift in Sources */,
+				3C12920423972101000702D3 /* CMMotionManager+shared.swift in Sources */,
 				3C99D1652360D62300221D0B /* ViewController.swift in Sources */,
 				3C99D1792360E28800221D0B /* PlayingCardView.swift in Sources */,
 				3C99D1612360D62300221D0B /* AppDelegate.swift in Sources */,
